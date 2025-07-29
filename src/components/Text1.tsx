@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Text2 from './Text2';
 
 
 function Text1() {
@@ -15,6 +14,7 @@ function Text1() {
  
   return(
     <>
+// I need to pass the value of num1 to Subbutton and Addbutton component
     <div>
         <input type="text" onChange={(t1)=>handletxt1Change(t1.target.value)}/>
     </div>
