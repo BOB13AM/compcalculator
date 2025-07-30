@@ -27,13 +27,24 @@ function App() {
 
 
   return (
-   <div>
-     {rendert1}
-     {rendert2}
-     <Subbutton subButtonProp={handleSubtract}/>
-     <Addbutton addButtonProp={handleAdd}/>
-     <Display total={total}/>
-   </div>
+
+   <div style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      gap: '20px',
+      marginTop: '40px'
+    }}>
+      <div style={{ display: 'flex', gap: '10px' }}>
+        {rendert1}
+        {rendert2}
+      </div>
+      <div style={{ display: 'flex', gap: '20px' }}>
+        <Subbutton subButtonProp={handleSubtract} />
+        <Addbutton addButtonProp={handleAdd} />
+      </div>
+      <Display total={total}/>
+    </div>
   )
 }
 
