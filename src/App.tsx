@@ -20,6 +20,7 @@ function App() {
        setTotal(numb1 - numb2);
        //console.log("Subtraction result: " + total);
     }
+    
      const handleAdd = () => {
        setTotal(numb1 + numb2);
        //console.log("Addition result: " + total);
