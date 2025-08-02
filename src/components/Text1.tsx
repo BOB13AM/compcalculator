@@ -12,9 +12,7 @@ function Text1() {
   }
 
   return{
-    
     numb1,
-     
     rendert1:(
     <>
     <div>
